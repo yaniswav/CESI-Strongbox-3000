@@ -200,6 +200,7 @@ bool question2()
     Serial.println("2 - Alter Ego");
     Serial.println("3 - Pablo Escobar");
     Serial.println("4 - Jeff Bezos");
+    Serial.println("5 - Yanis, créateur de ce programme");
     while (Serial.available() == 0);
     int b = Serial.parseInt();
     Serial.println("Question suivante (2/3) [reponse enregistree : " + String(b) +
